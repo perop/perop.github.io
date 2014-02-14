@@ -3,14 +3,22 @@ body, html {
 	width: 100%;
 }
 
-body, h1, h2, h3, h4, h5, h6 {
+body, h1, h2, h4, h5, h6 {
 	font-family:'Quicksand', sans-serif;
 	font-weight: 700;
+	
+}
+
+h3 {
+	font-family:'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #696969;
 }
 
 .lead {
 	font-size: 18px;
 	font-weight: 400;
+	color: #808080;
 }
 
 .intro-header {
@@ -36,7 +44,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .intro-divider {
 	width: 400px;
-	border-top: 1px solid #f8f8f8;
+	border-top: 3px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 	
 }
@@ -91,13 +99,22 @@ body, h1, h2, h3, h4, h5, h6 {
 	padding: 50px 0;
 }
 
-.section-heading {
-	color: #fffafa;
+.section-heading1 {
 	margin-bottom: 10px;
+	color: #fffafa;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+
+}
+
+.section-heading2 {
+	margin-bottom: 10px;
+	color: #8b4513;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 .section-heading-spacer {
-	border-top: 2px solid #f48585;
+	border-top: 3px solid  #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 	width: 200px;
 	float: left;
 }
