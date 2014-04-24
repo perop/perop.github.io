@@ -4,7 +4,7 @@ body, html {
 }
 
 body, h1, h2, h3, h4, h5, h6 {
-	font-family: "proxima-nova";
+	font-family:'Quicksand', sans-serif;
 	font-weight: 700;
 }
 
@@ -31,8 +31,8 @@ body, h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	font-size: 5em;
 /*	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);*/
-	font-family: 'Stint Ultra Expanded', cursive;
-}
+	font-family:'Poiret One', cursive;
+	}
 
 .intro-divider {
 	width: 400px;
