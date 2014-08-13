@@ -1,268 +1,370 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Mai Takahashi</title>
-   <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom Google Web Font -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-  
     <!-- Add custom CSS here -->
-    <link href="css/style.css" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script src="js/imagestrip.js" type="text/javascript"></script>
-    <script src="js/jquery.scrollablelink.js"></script>
-   <script>$(window).bind("load", function() {
-    $("div#my-folio-of-works").slideViewerPro({
-        thumbs: 6, 
-        autoslide: true, 
-        asTimer: 3500, 
-        typo: true,
-        galBorderWidth: 0,
-        thumbsBorderOpacity: 0, 
-        buttonsTextColor: "#707070",
-        buttonsWidth: 40,
-        thumbsActiveBorderOpacity: 0.8,
-        thumbsActiveBorderColor: "aqua",
-        shuffle: true
-    });
-});</script>
-   
-</head>
-
-<body style="">
-
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-                <ul class="nav navbar-nav">                    
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <div class="intro-header page" page-1 sryle="height: 800px" >
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                　<div class="intro-message">
-                	<h1>Mai Takahashi</h1>
-                	</div>
-                    </div>
-                    <div class="col-lg-12">
-                         	<div align="center">
-                    <img class="img-responsive" src="images/icon.png" alt="">
-                    </div>
-                        <h3>Hello World, From Tokyo !</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li><a href="#page-3" data-speed="1500" class="scrollable"> <span class="network-name">Blog</span></a>
-                            </li>
-                            <li><a href="#page-3" data-speed="1500" class="scrollable"><span class="network-name">Photos</span></a>
-                            </li>
-                            <li><a href="#page-4" data-speed="2000" class="scrollable"> <span class="network-name">About</span></a>
-                            </li>
-                           
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
+    <link href="css/slidefolio.css" rel="stylesheet">
+	<!-- Font Awesome -->  
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">  
+    
+    <!-- Custom Google Web Font -->
+        <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  </head>
+ 
+ 
+  <body>
+    <!-- Header Area -->
+    <div id="top" class="header">
+      <div class="vert-text">
+        <h1><em>Mai Takahashi</em></h1>
+	<img class="img-rounded" alt="Company Logo" src="./img/myicon.jpg"/>
+        <h3><em>iOS Developper / Designer</em></h3>
+		 <ul class="list-inline">
+              <li><a href="https://www.facebook.com/maitakahashi63"target="_blank" class="fa fa-facebook fa-3x"></a></li>
+              <li><a href="https://twitter.com/perop" target="_blank" class="fa fa-twitter fa-3x"></a></li>
+			  <li><a href="https://www.linkedin.com/pub/mai-takahashi/30/b84/563" target="_blank" class="fa fa-linkedin fa-3x"></a></li>
+			   <li><a href="http://jp.pinterest.com/maitakahashi/" target="_blank" class="fa fa-pinterest fa-3x"></a></li>
+            </ul>	
+			<a href="#about" class="btn btn-top">My Work</a>
+      </div>
     </div>
-    <!-- /.intro-header -->
+    <!-- /Header Area -->
+	  <div id="nav">
+    <!-- Navigation -->
+    <nav class="navbar navbar-new" role="navigation">
+   <div class="container">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobilemenu">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+<a href="#" class="navbar-brand">Mai Takahashi♥</a>
+  </div>
+  <div class="collapse navbar-collapse" id="mobilemenu">
 
-    <div class="content-section-a page" id="page-2" sryle="height: 1000px">
+	  <ul class="nav navbar-nav navbar-right text-center">
+	    <li><a href="#top"><i class="service-icon fa fa-home"></i>&nbsp;Home</a></li>
+        <li><a href="#about"><i class="service-icon fa fa-info"></i>&nbsp;Work</a></li>
+        <li><a href="#portfolio"><i class="service-icon fa fa-laptop"></i>&nbsp;My Story</a></li>
+        <li><a href="#contact"><i class="service-icon fa fa-envelope"></i>&nbsp;About Me</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+    <!-- /Navigation -->
+</div>	
+    <!-- About -->
+    <div id="about" class="about_us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+              <h2>My Work</h2>
+            <img align="left" src="img/iPhonework.png" />
+			<img align="right" src="img/iPhonework2.png" />
+			 <h3>Dancing Framingo</h3>
+<h3>Key Features</h3>
+<p>・Cocos2D-x</p>
+<p>・iOS game device</p>
+<p>・5 gestures ;</p>
+<p>Tap, Left Swipe, Right Swipe, Up Swipe, Down Swipe</p>
+<p>・Score</p>
+<br>
+             <p>My first iOS game.</p>
+			<br/>
+	<p>Coming Soon.....:)</p>
 
-     <div align="center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="clearfix"></div>
-                     <h2 class="section-heading1">MAI TAKAHASHI</h2>
-                    <hr class="intro-divider">
-                    <p class="lead"><a href="https://medium.com/@perop">WRITES ON MEDIUM</a></p>
+                      </div>
+        </div>
+	  </div>
+    </div>
+    <!-- /About -->
+    <!-- Services -->
+    <div id="services" class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h2>Reverse Rock, Paper, MYO</h2>
+            <hr>
+          </div>
+                  </div>
+ <h3>Develop / Graphic / UI Design Work</h3>
+ <h3>Won the Prize at Y Combinater Hackathon</h3>
+        <div class="row">
+        <div class="col-md-4 text-center">
+        	 <p>iOS Game allowing you to use MYO to control hand movement gestures to play a game of "Rock, Paper, Scissors" with a twist. Instead of trying to win the game based on the original strategy, the objective is to purposely lose to gain points, within the time frame set.</p>
+<br>
+<br>
+<h3>Key Features</h3>
+<p>・Use of MYO gesture armband and playable using the buttons at the bottom</p>
+<p>・iOS game device</p>
+<p>・Novel remake of the original "Rock, Paper, Scissors" game</p>
+<p>・Timer bar</p>
+<p>・Health System</p>
+<br>
+<p><a href="http://challengepost.com/software/reverse-rock-paper-myo">Click here</a></p>
+
+          	        </div>
+          	<div style="float:left;">
+	<img src="img/iPhonework4.png"/>
+	</div>
+	<div style="float:left;">
+	<img src="img/iPhonework3.png"/>
+	</div>
+	<div style="float:left;">
+	<img src="img/iPhonework5.png"/>
+	</div>
+	<br clear="img/iPhonework5.png"/>
+      </div>
+    </div>
+         </div>
+        </div>
+    <!-- /Services -->
+
+    <!-- Portfolio -->
+    <div id="portfolio" class="portfolio">
+    <div class="container">
+    <div class="row push50">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>My Story</h2>
+			<h3>
+			<!-- <span class="filter label label-default" data-filter="all">ALL</span>
+	<span class="filter label label-default" data-filter="bw">B&amp;W</span>
+	<span class="filter label label-default" data-filter="nature">Nature</span>
+	<span class="filter label label-default" data-filter="portraits">Portraits</span> -->	</h3>
+            <hr>
+          </div>
+        </div>
+		
+		<div class="row">
+		
+		<div class="gallery">
+		
+    		  <ul id="Grid" class="gcontainer">
+    		    <li class="col-md-4 col-sm-4 col-xs-12 mix bw portraits" data-cat="graphics">
+              <a data-toggle="modal" data-target="#portrait1" class="mix-cover">
+                <img class="horizontal" src="img/tokyostory.jpg" alt="placeholder">
+      		      <span class="overlay"><span class="valign"></span><span class="title">Tokyo</span></span>
+              </a>                
+      		  </li>
+    		    <li class="col-md-4 col-sm-4 col-xs-12 mix portraits" data-cat="graphics">
+                <a data-toggle="modal" data-target="#portrait2" class="mix-cover">
+                  <img class="horizontal" src="img/Ycombinater.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">San Francisco</span></span>
+                </a>                
+      		  </li>
+			  <li class="col-md-4 col-sm-4 col-xs-12 mix nature" data-cat="nature">
+                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
+                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">New York</span></span>
+        		    </a>
+      		  </li>
+ 
+    		  </ul>   
+			  
+<!-- Load Photo in Modal -->			  
+   <div class="modal fade" id="portrait1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">My Story in Tokyo</h4>
+        <br>
+        I was born in Yokohama, Japan....
+
+I really love taking a picture, writing and cooking.
+
+I majored in Game Theory and Advertising Communication in college. My love for photography led me to join Mindpalette Inc, a creative camera application development company based in Tokyo, as an intern.
+
+
+After graduation, I spent some time as an account manager/ assistant Director for a digital advertising firm.
+
+Here is my website where I share the things I love, the things I’m learning and the things I find incredible. Hopefully you’ll get to learn something new too:)
+
+By the way, I sometimes use "perop" for my social accounts. It doesn't mean much, just a random sequence of characters I came up with.
+
+I'm just having a lot of fun exploring!
+
+Want to get touch? Say Hi  <a target="_blank" href="https://twitter.com/perop">@perop</a> !
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="Portrait1" src="img/tokyostory.jpg"/>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+  <div class="modal fade" id="portrait2" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Winning the Prize at Y Combinater Hackathon August 3th 2014</h4>
+        <h4 class="modal-title text-center">San Francisco</h4>
+
+        <br>
+        I am iOS game developer and designer. I learned iOS programming and Cocos2D-x in Summer 2014 at MGWU Summer Academy at San Francisco. Also I Won the Myo API Prize at Y Combinater Hackathon August 3th 2014. I've become interested in design and started to learn HTML, CSS, Photoshop, Illustrator, Objective-C amd Cocos2D.
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="Portrait1" src="img/Ycombinater.jpg"/>
+       <img class="thumbnail" alt="Portrait1" src="img/YCHacks4.jpg"/>
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<div class="modal fade" id="nature1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Winning the Prize at Photo Hack Day</h4>
+        <h4 class="modal-title text-center">New York</h4>
+        <br>
+        I took part in the fisrt ever Aviary Hacathon, New York Start Up, and created Photo and Video Sharing web Service using of EyeEm and Facebook API. Won the Prize for best use of EyeEm API.
+        <br>
+      </div>
+      <div class="modal-body">
+      <img class="thumbnail" alt="nature" src="img/banner-.png"/>
+      <br>
+      <br>
+       <img class="thumbnail" alt="nature" src="img/nature1.jpg"/>
+       <br>
+       <br>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<!-- /Load Photo in Modal -->	
+		</div>	
+      </div>
+		</div>
+      </div>
+    <!-- /Portfolio -->
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+		<div class="col-md-4 col-md-offset-4 text-center">
+            <h2>About Me</h2>
+			<hr>
+          </div>
+          <div class="col-md-5 col-md-offset-3">
+		  <!-- contact form starts -->
+            <form action="contact" id="contact-form" class="form-horizontal">
+			<fieldset>
+						    <div class="form-group">
+						      <label class="col-sm-4 control-label" for="name"></label>
+						      <div class="col-sm-8">
+						      	                  <p class="lead"><a href="https://medium.com/@perop">WRITES ON MEDIUM</a></p>
                     <p class="lead"><a href="https://www.facebook.com/maitakahashi63">LIVES ON FACEBOOK</a></p>
                     <p class="lead"><a href="https://twitter.com/perop">CHIRPS ON TWITTER</a></p>
                     <p class="lead"><a href="http://instagram.com/perop">SHOOTS ON INSTAGRAM</a></p>
                     <p class="lead"><a href="http://jp.pinterest.com/maitakahashi/">COLLECTS ON PINTEREST</a></p>
-                     </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-            
-                </div>
-            </div>
-          </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-b page" id="page-3" sryle="height: 1000px">
-
-      <div align="center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading2">Blog</h2>
-                   <hr class="intro-divider">
-                    <p class="lead">My blog on ： <a target="_blank" href="https://medium.com/@perop">geeky things and my cooking recipes...</a><p>
-                    <div class="post post-index">
-                    <p class="post-title post-title-index">
-                    		
-                    <p class="lead">日本語のブログ ：</p>
-                  	<p class="lead"><a target="_blank" href="post/20140622.html">Day 0： サンフランシスコでプログラミングキャンプに参加します。</a></p>
-　　              	<p class="lead"><a target="_blank" href="post/20140623.html">Day 1： start coding!</a></p>
-　　              	<p class="lead"><a target="_blank" href="post/Day2.html">Day 2: Flappy Bird(模倣)を作成♡</a></p>
-　　              	<p class="lead"><a target="_blank" href="post/Day3.html">Day 3： Geek Puppy!</a></p>
-　　              	<p class="lead"><a target="_blank" href="post/Day4.html">Day 4: あの人気ゲーム「Angry Bird」クローンに挑戦！</a></p>
-　　              	<p class="lead"><a target="_blank" href="post/Day5.html">Day 5: イライラペンギンとプログラミングと英語</a></p>
-　　              	<p class="lead"><a target="_blank" href="post/Day6.html">Day 6: イライラペンギン完成と記事掲載報告</a></p>
-					<p class="lead"><a target="_blank" href="post/Day7.html">Day 7: CodeMate ＆ Camp</a></p>
-					<p class="lead"><a target="_blank" href="post/Day8.html">Day 8: Game Design</a></p>
-　　              	<p class="lead"><a target="_blank" href="post/Day9.html">Day 9: ProtoTyping</a></p>
-　　              	<p class="lead">Day 10： </p>
-　　              	<p class="lead">Day 11： </p>
-　　              	<p class="lead">Day 12： </p>
-
-                    		</div>
-                  	<br></br>
-                    <p class="lead">Sometimes Writes at <a target="_blank" href="http://mcha.jp/en/">mcha.jp</a></p>
-                    <p style="padding-top:20px;">
-                    <h2 class="section-heading2">Photo</h2>
-                    <hr class="intro-divider">
-                    <p class="lead"><a target="_blank" href="https://medium.com/p/4a7783539d5">My Cooking</a></p>
-                    <p style="padding-top:10px;">
-                    <p class="lead"><a target="_blank" href="https://medium.com/p/5e851de893cd">Japan</a><p>
-                    <p class="lead"><a target="_blank" href="https://medium.com/p/c2f600d7f351">New York</a></p>
-                    <p class="lead"><a target="_blank" href="https://medium.com/p/cbb09828fe57">San Francisco</a></p>
       
-
-                </div>
-                </div>
-               
-            </div>
-
+						      </div>
+						    </div>
+	
+						</fieldset>
+						</form>
+				
+				<!-- contact form ends -->		
+          </div>
         </div>
-        <!-- /.container -->
-
+      </div>
     </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-c page" id="page-4" sryle="height: 1000px">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <div class="clearfix"></div>
-                    <p style="padding-top:30px;">
-                    <h2 class="section-heading2">About</h2>
-                    <hr class="section-heading-spacer"><br>
-                    <p style="padding-top:10px;">
-                    <p class="lead"></p>
-                    <p class="lead">I was born in Yokohama, Japan....</p>
-                    <p class="lead">I really love taking a picture, writing and cooking.</p>
-                     <p class="lead">I majored in Game Theory and Advertising Communication in college. My love for photography led me to join Mindpalette Inc, a creative camera application development company based in Tokyo, as an intern.</p>
-
-                  <p style="padding-top:40px;">
-                                        
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                	<p style="padding-top:80px;">
-                    <img class="img-responsive img-circle" src="images/icon2.png" alt="">
-                    <p style="padding-top:40px;">
-                </div>
-                <div class="col-lg-12">
-                    <p class="lead">After graduation, I spent some time as an account manager for a social media advertising firm and later become a community manager of a camera app ”Snapeee.”</p>
-                    <p class="lead">And recently, I've become interested in design and started to learn HTML, CSS, and Photoshop. </p>
-                    <p class="lead">So I built this site - where I share the things I love, the things I’m learning and the things I find incredible. Hopefully you’ll get to learn something new too:)</p>
-                    <p class="lead">By the way, I sometimes use "perop" for my social accounts. It doesn't mean much, just a random sequence of characters I came up with.</p>
-                    <p class="lead">I'm just having a lot of fun exploring! </p>
-                    <p class="lead">Want to get touch? Say Hi @perop !</p>
-           <p style="padding-top:40px;">
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Life is short.</h2>
-                    <h2> Live your dream, </h2>
-                    <h2>and share your passion.</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                                  
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.banner -->
-
+    <!-- /Contact -->
+    <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li><a href="pagetop" data-speed="1200" class="scrollable">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">⋅</li>
-                        <li><a href="#page-4" data-speed="1000" class="scrollable">About</a>
-                        </li>
-                        <li class="footer-menu-divider">⋅</li>
-                        <li><a href="https://twitter.com/perop">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright © Mai Takahashi. All Rights Reserved</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+           <h2>Thank You♡</h2>
+           <em>Copyright © Mai Takahashi. All Rights Reserved</em>
+          </div>
         </div>
+      </div>
     </footer>
+    <!-- /Footer -->
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+	<script src="js/jquery-scrolltofixed-min.js"></script>
+	<script src="js/jquery.vegas.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/bootstrap.js"></script>
+	
+<!-- Slideshow Background  -->
+	<script>
+$.vegas('slideshow', {
+  delay:6000,
+  backgrounds:[
+     { src:'./img/san-franc.jpg', fade:2000 },
+	 { src:'./img/bw1.jpg', fade:2000 },
+    { src:'./img/portrait1.jpg', fade:2000 },
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+	   
+  ]
+})('overlay', {
+src:'./img/overlay.png'
+});
 
+	</script>
+<!-- /Slideshow Background -->
 
+<!-- Mixitup : Grid -->
+    <script>
+		$(function(){
+    $('#Grid').mixitup();
+      });
+    </script>
+<!-- /Mixitup : Grid -->	
 
+    <!-- Custom JavaScript for Smooth Scrolling - Put in a custom JavaScript file to clean this up -->
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
 
-</body></html>	
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+<!-- Navbar -->
+<script type="text/javascript">
+$(document).ready(function() {
+        $('#nav').scrollToFixed();
+  });
+    </script>
+<!-- /Navbar-->
+	
+  </body>
+
+</html>
