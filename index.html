@@ -7,22 +7,15 @@
     <meta name="author" content="">
 
     <title>Mai Takahashi</title>
-    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- Add custom CSS here -->
     <link href="css/slidefolio.css" rel="stylesheet">
-	<!-- Font Awesome -->  
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">  
-    
-    <!-- Custom Google Web Font -->
-        <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-     <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-  
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+
   <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-	<!-- ****** faviconit.com favicons ****** -->
   </head>
- 
- 
+
   <body>
     <!-- Header Area -->
     <div id="top" class="header">
@@ -35,7 +28,7 @@
               <li><a href="https://twitter.com/perop" target="_blank" class="fa fa-twitter fa-3x"></a></li>
 			  <li><a href="https://www.linkedin.com/pub/mai-takahashi/30/b84/563" target="_blank" class="fa fa-linkedin fa-3x"></a></li>
 			   <li><a href="http://jp.pinterest.com/maitakahashi/" target="_blank" class="fa fa-pinterest fa-3x"></a></li>
-            </ul>	
+            </ul>
 			<a href="#about" class="btn btn-top">My Work</a>
       </div>
     </div>
@@ -66,7 +59,7 @@
   </div>
 </nav>
     <!-- /Navigation -->
-</div>	
+</div>
     <!-- About -->
     <div id="about" class="about_us">
       <div class="container">
@@ -148,23 +141,23 @@
             <hr>
           </div>
         </div>
-		
+
 		<div class="row">
-		
+
 		<div class="gallery">
-		
+
     		  <ul id="Grid" class="gcontainer">
     		    <li class="col-md-4 col-sm-4 col-xs-12 mix bw portraits" data-cat="graphics">
               <a data-toggle="modal" data-target="#portrait1" class="mix-cover">
                 <img class="horizontal" src="img/tokyostory.jpg" alt="placeholder">
       		      <span class="overlay"><span class="valign"></span><span class="title">Tokyo</span></span>
-              </a>                
+              </a>
       		  </li>
     		    <li class="col-md-4 col-sm-4 col-xs-12 mix portraits" data-cat="graphics">
                 <a data-toggle="modal" data-target="#portrait2" class="mix-cover">
                   <img class="horizontal" src="img/Ycombinater.jpg" alt="placeholder">
         		      <span class="overlay"><span class="valign"></span><span class="title">San Francisco</span></span>
-                </a>                
+                </a>
       		  </li>
 			  <li class="col-md-4 col-sm-4 col-xs-12 mix nature" data-cat="nature">
                 <a data-toggle="modal" data-target="#nature1" class="mix-cover">
@@ -172,10 +165,10 @@
         		      <span class="overlay"><span class="valign"></span><span class="title">New York</span></span>
         		    </a>
       		  </li>
- 
-    		  </ul>   
-			  
-<!-- Load Photo in Modal -->			  
+
+    		  </ul>
+
+<!-- Load Photo in Modal -->
    <div class="modal fade" id="portrait1" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -254,8 +247,8 @@ Want to get touch? Say Hi  <a target="_blank" href="https://twitter.com/perop">@
 
 
 
-<!-- /Load Photo in Modal -->	
-		</div>	
+<!-- /Load Photo in Modal -->
+		</div>
       </div>
 		</div>
       </div>
@@ -280,14 +273,14 @@ Want to get touch? Say Hi  <a target="_blank" href="https://twitter.com/perop">@
                     <p class="lead"><a href="https://twitter.com/perop">CHIRPS ON TWITTER</a></p>
                     <p class="lead"><a href="http://instagram.com/perop">SHOOTS ON INSTAGRAM</a></p>
                     <p class="lead"><a href="http://jp.pinterest.com/maitakahashi/">COLLECTS ON PINTEREST</a></p>
-      
+
 						      </div>
 						    </div>
-	
+
 						</fieldset>
 						</form>
-				
-				<!-- contact form ends -->		
+
+				<!-- contact form ends -->
           </div>
         </div>
       </div>
@@ -305,7 +298,9 @@ Want to get touch? Say Hi  <a target="_blank" href="https://twitter.com/perop">@
       </div>
     </footer>
     <!-- /Footer -->
+
     <!-- Bootstrap core JavaScript -->
+
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
 	<script src="js/jquery-scrolltofixed-min.js"></script>
@@ -314,7 +309,7 @@ Want to get touch? Say Hi  <a target="_blank" href="https://twitter.com/perop">@
 	<script src="js/jquery.validate.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/bootstrap.js"></script>
-	
+
 <!-- Slideshow Background  -->
 	<script>
 $.vegas('slideshow', {
@@ -324,7 +319,7 @@ $.vegas('slideshow', {
 	 { src:'./img/bw1.jpg', fade:2000 },
     { src:'./img/portrait1.jpg', fade:2000 },
 
-	   
+
   ]
 })('overlay', {
 src:'./img/overlay.png'
@@ -339,13 +334,13 @@ src:'./img/overlay.png'
     $('#Grid').mixitup();
       });
     </script>
-<!-- /Mixitup : Grid -->	
+<!-- /Mixitup : Grid -->
 
     <!-- Custom JavaScript for Smooth Scrolling - Put in a custom JavaScript file to clean this up -->
     <script>
       $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
             || location.hostname == this.hostname) {
 
             var target = $(this.hash);
@@ -360,6 +355,7 @@ src:'./img/overlay.png'
         });
       });
     </script>
+
 <!-- Navbar -->
 <script type="text/javascript">
 $(document).ready(function() {
@@ -367,7 +363,7 @@ $(document).ready(function() {
   });
     </script>
 <!-- /Navbar-->
-	
+
   </body>
 
 </html>
