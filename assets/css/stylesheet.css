@@ -50,8 +50,8 @@ h9{font-family: "Georgia","Helvetica Neue", Helvetica, Arial, sans-serif; color:
   text-align : center;
   padding-top: 50px;
 }
-.content{
-  width:800px;
+.content {
+  max-width: 800px;
   margin-right: auto;
   margin-left : auto;
   text-align : center;
@@ -124,9 +124,8 @@ transition: 0.5s;
   padding-bottom: 30px;
 }
 
-
-.work-photo{
-  width: 1000px;
+.work-photo {
+  /*width: 1000px;*/
   padding-top: 50px;
   padding-bottom: 10px;
   margin-right: auto;
@@ -134,17 +133,7 @@ transition: 0.5s;
   text-align: center;
 }
 
-.work-photo-2{
-  width: 500px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  margin-right: auto;
-  margin-left : auto;
-  text-align: center;
-}
-
-
-.work-description{
+.work-description {
   margin-top: 100px;
   margin-bottom: 100px;
 
@@ -184,7 +173,9 @@ ul.social-icon {
   text-align: center;
   }
 
-img {width: 100%;}
+img {
+  width: 100%;
+}
 
 .img-block p { margin: 0; }
 
