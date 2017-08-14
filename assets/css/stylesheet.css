@@ -73,6 +73,14 @@ text-decoration: none;
 }
 .content p { text-align : left ; }
 
+.content a{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #676767;
+  letter-spacing: .08em;
+  font-weight:400;
+  margin-bottom: 0.8px
+}
+
 .vert-text{
 padding-top: 100px;
 }
